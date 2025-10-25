@@ -110,3 +110,4 @@ demo = gr.Interface(
         gr.Image(label="histogram"), # The first thing returned is an image name
         gr.Textbox(label="details")  # The second thing returned is a string
 
+#iface.launch()
