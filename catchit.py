@@ -1,7 +1,7 @@
 # avasgpt.github.io
 ## Version 1.0 Alpha
 # we are gonna start by uploading packages from openai and gradio. Gradio is the main function for the app.
-                                                                                                                   #WHERE ARE MY SECRETS!?
+# DISCONTINUED                                                                                                                    #WHERE ARE MY SECRETS!?
 #!pip install \
  # pymilvus==2.3.4 \
   #langchain==0.0.352 \
