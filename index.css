@@ -4,3 +4,14 @@
 h1, h2, h3 {
     font-family: "Arial";
 }
+body {
+  position: relative;
+  min-height: 100vh; /* Ensures body covers full screen height */
+  margin: 0;
+}
+
+sub {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
