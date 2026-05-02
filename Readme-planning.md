@@ -1,6 +1,6 @@
 # AvasGPT: The AI that will help the world
 ## Introduction
-AvasGPT is a W.I.P(work in progress). It is an Generative Text Transformer (GPT) that geneeates accurate results. 
+AvasGPT is a W.I.P(work in progress). It is an Generative Text Transformer (GPT) that generates accurate results. 
 AvasGPT has three different forms:
 1. Text Generation
 2. Text Continuer
@@ -21,4 +21,4 @@ Go to:
 ```link_expired
 link not available.
 ```
-# AvasGPT: Prompt Guidance
+# AvasGPT: Deevelopment
