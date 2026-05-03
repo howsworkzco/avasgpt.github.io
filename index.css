@@ -33,26 +33,32 @@ sub {
 }
 */
 #glass-gradient {
-  /* The Gradient: Light Blue (#add8e6) to Blue (#0000ff) */
-  background: linear-gradient(to right, #add8e6, #0000ff);
-  backdrop-filter: blur(12px) saturate(180%)
-  /* Clipping the background to the text */
+  /* 1. The Glass Container */
+  background-color: rgba(255, 255, 255, 0.08); /* Light "smoke" fill */
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  
+  /* 2. The Border & Shape */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border */
+  border-radius: 50px; /* Makes it a pill shape like the image */
+  padding: 12px 28px;
+  display: inline-block;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  
+  /* 3. The Light Blue to Blue Text Gradient */
+  background-image: linear-gradient(to right, #7dd3fc, #2563eb); 
   -webkit-background-clip: text;
   background-clip: text;
-  
-  /* Making the text transparent so the background shows through */
-  -webkit-text-fill-color: transparent;
   color: transparent;
-/* tryna make the border lol */
-  padding: 10px 20px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
-  display: inline-block
-
-  /* Apple-style Typography */
+  
+  /* Typography */
   font-family: -apple-system, "SF Pro Display", sans-serif;
   font-weight: 700;
-  font-size: 4rem; /* Adjust size as needed */
-  letter-spacing: -0.03em;
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+/*
+  Background Conflict Fix: Used background-image for the gradient so it doesn't "kill" 
+  the background-color of the glass.Border Radius: Increased to 50px to match the rounded "bubble" look */
+}
+
 }
