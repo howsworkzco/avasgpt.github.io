@@ -35,7 +35,7 @@ sub {
 #glass-gradient {
   /* The Gradient: Light Blue (#add8e6) to Blue (#0000ff) */
   background: linear-gradient(to right, #add8e6, #0000ff);
-  
+  backdrop-filter: blur(12px) saturate(180%)
   /* Clipping the background to the text */
   -webkit-background-clip: text;
   background-clip: text;
@@ -43,6 +43,12 @@ sub {
   /* Making the text transparent so the background shows through */
   -webkit-text-fill-color: transparent;
   color: transparent;
+/* tryna make the border lol */
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+  display: inline-block
 
   /* Apple-style Typography */
   font-family: -apple-system, "SF Pro Display", sans-serif;
