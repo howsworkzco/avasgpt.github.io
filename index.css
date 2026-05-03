@@ -15,22 +15,38 @@ sub {
   bottom: 0;
   left: 0;
 }
+/*
 #glass-gradient {
-  /* 1. The Glass Effect */
-  background: rgba(255, 255, 255, 0.15); /* Translucent background */
-  backdrop-filter: blur(12px) saturate(180%); /* Blurs background & pops color */
-  -webkit-backdrop-filter: blur(12px) saturate(180%); /* Safari support */
   
-  /* 2. The Blue Gradient Text */
-  background: linear-gradient(135deg, #336bf1, #282a2c); /* Light blue to Apple blue */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  background: linear-gradient(135deg, #336bf1, #282a2c);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; /* Makes text take the gradient background */
-
-  /* 3. Finishing Touches */
+  color: transparent;
   padding: 10px 20px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle glass edge */
+  border: 1px solid rgba(255, 255, 255, 0.3); 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  display: inline-block; /* Keeps the glass container tight to text */
+  display: inline-block; 
+}
+*/
+#glass-gradient {
+  /* The Gradient: Light Blue (#add8e6) to Blue (#0000ff) */
+  background: linear-gradient(to right, #add8e6, #0000ff);
+  
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Making the text transparent so the background shows through */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  /* Apple-style Typography */
+  font-family: -apple-system, "SF Pro Display", sans-serif;
+  font-weight: 700;
+  font-size: 4rem; /* Adjust size as needed */
+  letter-spacing: -0.03em;
 }
