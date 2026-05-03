@@ -22,7 +22,7 @@ sub {
   -webkit-backdrop-filter: blur(12px) saturate(180%); /* Safari support */
   
   /* 2. The Blue Gradient Text */
-  background: linear-gradient(135deg, #a0c4ff, #007aff); /* Light blue to Apple blue */
+  background: linear-gradient(135deg, #336bf1, #282a2c); /* Light blue to Apple blue */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent; /* Makes text take the gradient background */
