@@ -15,3 +15,22 @@ sub {
   bottom: 0;
   left: 0;
 }
+#glass-gradient {
+  /* 1. The Glass Effect */
+  background: rgba(255, 255, 255, 0.15); /* Translucent background */
+  backdrop-filter: blur(12px) saturate(180%); /* Blurs background & pops color */
+  -webkit-backdrop-filter: blur(12px) saturate(180%); /* Safari support */
+  
+  /* 2. The Blue Gradient Text */
+  background: linear-gradient(135deg, #a0c4ff, #007aff); /* Light blue to Apple blue */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; /* Makes text take the gradient background */
+
+  /* 3. Finishing Touches */
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle glass edge */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* Keeps the glass container tight to text */
+}
