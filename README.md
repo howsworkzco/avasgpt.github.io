@@ -18,8 +18,8 @@ Steps to run it:
 And you are done! Good job!
 ### AvasGPT On The Web
 Go to: 
-```link_expired
-link not available.
+```link
+https://howsworkzco.github.io/avasgpt.github.io/
 ```
 ***
 # About avasgpt_nano_alpha_pre22.ipynb
