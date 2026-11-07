@@ -6,6 +6,11 @@ AvasGPT has three different forms:
 2. Text Continuer
 3. Image Generation (maybe facial recognition too?)
 
+## Listed Models:
+
+   SeekThrough is the model used for diving into context and answering with the information given, gathering context naturally through a conversation. It can be fine-tuned to help with reports of an incident, for example.
+DeepSearch is the model used for searching the web (from its training data, which can be used as factual data) to find answers reliably.
+
 ## Running it locally
 Running it locally is simple with the Raju CLI, another wonderful package developed by us!
 Steps to run it:
