@@ -1,4 +1,4 @@
-# AvasGPT: The AI that will help the world (the country)
+# AvasGPT: The AI that will be free for all
 ## Introduction
 AvasGPT is a W.I.P(work in progress). It is an Generative Text Transformer (GPT) that generates accurate results. 
 AvasGPT has three different forms:
@@ -7,10 +7,10 @@ AvasGPT has three different forms:
 3. Image Generation (maybe facial recognition too?)
 
 ## Listed Models:
-
+   ### SeekThrough
    SeekThrough is the model used for diving into context and answering with the information given, gathering context naturally through a conversation. It can be fine-tuned to help with reports of an incident, for example.
 DeepSearch is the model used for searching the web (from its training data, which can be used as factual data) to find answers reliably.
-
+   
 ## Running it locally
 Running it locally is simple with the Raju CLI, another wonderful package developed by us!
 Steps to run it:
